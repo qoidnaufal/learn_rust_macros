@@ -1,0 +1,10 @@
+[package]
+name = "learn_macro"
+version = "0.1.0"
+edition = "2021"
+
+[workspace]
+members = ["micro"]
+
+[dependencies]
+micro = { path = "./micro" }
